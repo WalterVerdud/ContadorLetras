@@ -56,9 +56,7 @@ public class contFrecuenciaLetras {
                         word,
                         frequencyMap.getOrDefault(word, 0) + 1
                 );
-
             }
-
         }
 
         System.out.println(wordCount + " words");
